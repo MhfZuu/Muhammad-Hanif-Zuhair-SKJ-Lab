@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    hpca-23-gem5-build:
+        build:
+           context: .
+           dockerfile: Dockerfile
+        image: gcr.io/gem5-test/hpca-23-gem5-build:latest
+
